@@ -1,5 +1,5 @@
 //
-//  main.cpp
+//  main.c
 //  BattleShip
 //
 //  Created by Filip on 22/05/16.
