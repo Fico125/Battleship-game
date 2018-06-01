@@ -2,8 +2,8 @@
 //  main.cpp
 //  BattleShip
 //
-//  Created by Marcel on 22/05/16.
-//  Copyright © 2016 Marcel. All rights reserved.
+//  Created by Filip on 22/05/16.
+//  Copyright © 2016 Filip. All rights reserved.
 //
 #include <stdio.h>
 #include <string.h>
