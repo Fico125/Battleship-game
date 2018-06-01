@@ -477,8 +477,7 @@ void attackPosition( int i, int j )
     {
         if ( checkIfPositionIsShipOccupied( i, j, PLAYER_HUMAN ) )
         {
-            printf("Human's board got hit: %c, col=%d, row=%d", player[PLAYER_HUMAN].grid[i][j], i, j); // je li ovo isto kao ova linija ispod?
-            //cout << "Human's board got hit : " << player[PLAYER_HUMAN].grid[i][j] << "(col=" << i << ",row=" << j << ")" << endl;
+            printf("Human's board got hit: %c, col=%d, row=%d", player[PLAYER_HUMAN].grid[i][j], i, j); 
             player[PLAYER_HUMAN].grid[i][j] = isHIT;
             countRemainingShipPieces( PLAYER_HUMAN );
             system("clear");
@@ -526,8 +525,7 @@ void doAttackRandomPosition()
         system("clear");
         DrawBoard( PLAYER_COMPUTER );
         DrawBoard( PLAYER_HUMAN );
-        printf("Human's board got hit and computer starts a seek and destroy\n"); //moze proc ovo u zamjenu za liniju ispod?
-        //cout << "Human's board got hit and computer starts a seek and destroy: " << player[PLAYER_HUMAN].grid[i][j] << endl;
+        printf("Human's board got hit and computer starts a seek and destroy\n");
         computerHitPosition[0] = i;
         computerHitPosition[1] = j;
         isComputerLockingTarget = true; // start of seek and destroy operation
